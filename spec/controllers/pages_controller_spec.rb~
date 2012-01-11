@@ -15,10 +15,5 @@ describe PagesController do
       response.should be_success
     end
   end
-  describe "GET 'about method' " do
-    it "returns about method created" do
-      get 'about'
-      response.should be_success
-    end
-  end
+
 end
